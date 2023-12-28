@@ -1,0 +1,36 @@
+.members {
+    /* margin: 2%; */
+    background-color: #f8f9fa !important;
+}
+
+.members h1 {
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+.members p {
+    margin: auto;
+    padding: 7%;
+    align-items: center;
+    text-align: center;
+}
+
+.chair {
+    display: flex;
+    padding: 2%;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.profile {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.profile img {
+    width: 40%;
+}

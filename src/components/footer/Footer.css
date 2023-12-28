@@ -1,0 +1,19 @@
+/* Footer.css */
+
+.footer {
+    background: #efefef;
+    color: #888;
+}
+
+.footer a {
+    color: #888;
+    /* Adjust link color as needed */
+}
+
+.footer a:hover {
+    color: #555;
+    /* Change link color on hover as needed */
+}
+
+
+/* Additional styling as needed */

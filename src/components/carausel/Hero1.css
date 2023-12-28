@@ -1,0 +1,31 @@
+/* Hero1.css */
+
+.hero-container {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 12%;
+    justify-content: center;
+    transition: background 9.5s ease;
+    animation: changeBackground 20s infinite;
+    height: 100vh;
+    background-position: center;
+    /* Adjust the alpha value (0.6) for transparency */
+    /* Set the animation duration as needed */
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/pexels-creapattern-2578326.jpg');
+    }
+    50% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/modern-business-center-hongkong.jpg');
+    }
+    100% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/pexels-creapattern-2578326.jpg');
+    }
+}
+
+h1 {
+    font-size: 200px;
+}
