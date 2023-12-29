@@ -10,7 +10,6 @@ import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 
 import slide_image_4 from '../../images/project4.jpg';
