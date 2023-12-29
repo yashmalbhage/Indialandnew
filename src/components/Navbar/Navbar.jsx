@@ -6,21 +6,30 @@ import img from '../../images/logo (2).png'
 import { NavLink } from 'react-router-dom';
 function Navbarr() {
   const logo = {
-    width:'10vw'
+    width:'6vw'
   }
   return (
-    <Navbar expand="lg" className="bg-body-tertiary"  bg="transparent"
-  
-    
-    style={{ width: '85%', position: 'absolute', top:'2%', left:'7%',height:'14%', }}>
+    <Navbar expand="lg" className="bg-body-tertiary"  bg="" style={{backgroundColor: 'black'}}>
       <Container>
         <Navbar.Brand href="#home"><img src={img} alt="" style={logo}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="about">About us</Nav.Link>
+            {/* <Nav.Link href="about">About us</Nav.Link> */}
             <Nav.Link href="contact">contact us</Nav.Link>
+            <NavDropdown title="About us" id="basic-nav-dropdown">
+            <NavDropdown.Item href="about">About company</NavDropdown.Item>
+            <NavDropdown.Item href="/leadership">LeaderShip</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3">Chairman Corner</NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown title="Projects" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/Magarpatta">CYBER CITY MAGARPATT</NavDropdown.Item>
+            <NavDropdown.Item href="#action/2">LeaderShip</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3">Chairman Corner</NavDropdown.Item>
+          </NavDropdown>
 
            
           </Nav>

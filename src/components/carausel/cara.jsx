@@ -7,17 +7,27 @@ import './Hero1.css';
 
 const Hero1 = ({ title, subtitle }) => {
   return (
-    <div className="hero-container">
+    <div >
+         <div className="hero-container">
+          <div className="navbarr">
+          <Navbarr/>
+          </div>
+       
+
+         
+
       <Container>
         <Row>
           <Col>
-            <Navbarr />
-            <h1>{title}</h1>
+           
+            <h1 >{title}</h1>
             <p>{subtitle}</p>
           </Col>
         </Row>
       </Container>
     </div>
+    </div>
+ 
   );
 };
 

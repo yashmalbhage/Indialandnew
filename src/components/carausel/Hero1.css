@@ -14,6 +14,20 @@
     /* Set the animation duration as needed */
 }
 
+.navbarr {
+    position: relative;
+    bottom: 55%
+}
+
+.hero-container h1 {
+    font-size: 6vw;
+    color: rgb(216, 150, 150)
+}
+
+.hero-container p {
+    font-size: 4vw;
+}
+
 @keyframes changeBackground {
     0% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/pexels-creapattern-2578326.jpg');
@@ -26,6 +40,18 @@
     }
 }
 
-h1 {
-    font-size: 200px;
+@media (max-width: 990px) {
+    .hero-container h1 {
+        font-size: 16vw;
+        position: relative;
+        top: 25vh
+    }
+    .hero-container p {
+        position: relative;
+        top: 32vh;
+        font-size: 7vw;
+    }
+    .navbarr {
+        bottom: 0%
+    }
 }

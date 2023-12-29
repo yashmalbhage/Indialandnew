@@ -9,6 +9,7 @@ import './about.css'
 import Counter from "../../components/counter/counter";
 import Team from "../../components/team/team";
 import Footer from "../../components/footer/fotter";
+import Aboutp from "../../components/Aboutpart/Aboutp";
 const testimonials = [
   {
     author: "John Doe",
@@ -29,7 +30,8 @@ const About = () => {
         <Hero
           title="About us"
           subtitle=""
-          backgroundImage="#e09007"
+          backgroundImage="#1f6f8b;"
+          style={{backgroundColor:'#1f6f8b'}}
         />
         {/* <div className="cardsec" style={{ display: "flex", margin: "2%" }}>
           <CustomCard
@@ -57,38 +59,25 @@ const About = () => {
           {" "}
           {/* <h2>Testimonials</h2> */} {/* <TestimonialSlider/> */}{" "}
         </div>
-        <div className="abo">
-            <h1>About us</h1>
-            <p>India Land, a part of the Americorp Group, has developed five million square feet of real estate, including IT parks, SEZs, and industrial and commercial spaces across major Indian cities. They hold prime land parcels in South Mumbai, Coimbatore, suburban Chennai (Padalam, Oragadam), and Pune (Hinjewadi) for high-end commercial and residential development.
-</p>
-            <div className="ap1">
-                <div className="imagep"> 
-                  <img src={abimg} alt="image" />
-                </div>
-                <div className="attri">
-                    <div className="feature">
-                        <h4>Quality properties</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
-                    </div>
-                    <div className="feature">
-                        <h4>Quality properties</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
-                    </div>
-                    <div className="feature">
-                        <h4>Quality properties</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
-                    </div>
-                    <div className="feature">
-                        <h4>Quality properties</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-        <Counter />
+        <Aboutp/>
         <Team/>
+        {/* <div className="phil">
+          <h1>Our Philosophy</h1>
+          <hr></hr>
+          <div className="mission">
+            <h4>Mission</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora assumenda mollitia veritatis minus optio laborum voluptatum eveniet. Iure expedita nulla doloribus vero nostrum dolor necessitatibus vitae, fuga, tempora deleniti eaque?</p>
+          </div>
+          <div className="mission">
+            <h4>Vision</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora assumenda mollitia veritatis minus optio laborum voluptatum eveniet. Iure expedita nulla doloribus vero nostrum dolor necessitatibus vitae, fuga, tempora deleniti eaque?</p>
+          </div>
+          <div className="mission">
+            <h4>Core</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora assumenda mollitia veritatis minus optio laborum voluptatum eveniet. Iure expedita nulla doloribus vero nostrum dolor necessitatibus vitae, fuga, tempora deleniti eaque?</p>
+          </div>
+          
+        </div> */}
 
       </div>
       <Footer/>

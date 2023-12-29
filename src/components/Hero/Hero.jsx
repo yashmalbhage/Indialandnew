@@ -16,14 +16,17 @@ const Hero = ({ title, subtitle, backgroundImage }) => {
   
 
   return (
-    <div style={heroStyle}>
+    <div>
+             <Navbarr />
+
+      <div style={heroStyle}>
+
       <Container>
        
         <Row>
           <Col>
           
-          <Navbarr />
-
+         
           
           
             <h1>{title}</h1>
@@ -32,12 +35,15 @@ const Hero = ({ title, subtitle, backgroundImage }) => {
         </Row>
       </Container>
     </div>
+    </div>
+    
   );
 };
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
+  bg:PropTypes.string
   
 };
 

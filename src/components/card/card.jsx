@@ -1,31 +1,43 @@
-// CardComponent.js
+// CustomCard.js
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faIcons } from '@fortawesome/free-solid-svg-icons'; // Default icon (can be replaced with any other)
-import { icon } from '@fortawesome/fontawesome-svg-core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import './index.css';
+import { faEdit } from '@fortawesome/free-solid-svg-icons';
 
-const CustomCard = ({ logo, title, description }) => {
+const CustomCard = ({ icon, title, description, img1 }) => {
   return (
-    <Card style={{ width: '18rem', margin:'2%', color:'#1f6f8b', padding:'1%', boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+    <div className="custom-card">
+      <div className="card-content">
+        {icon && (
+          <FontAwesomeIcon
+            icon={icon}
+            className="custom-icon"
+          />
+        )}
+        {img1 && (
+          <img src={img1} alt="Card" className="custom-image" />
+        )}
 
-      <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{description}</Card.Text>
-      </Card.Body>
-    </Card>
+        <h3 className="card-title">{title}</h3>
+        <div className="content">
+          <p className="card-text">{description}</p>
+        </div>
+      </div>
+    </div>
   );
 };
 
 CustomCard.propTypes = {
-
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  ico: PropTypes.object
+  icon: PropTypes.object,
+  img1: PropTypes.object,
 };
+
 CustomCard.defaultProps = {
-    ico: faCoffee, // Default icon if not provided
-  };
+  icon: faEdit, // Default icon if not provided
+};
 
 export default CustomCard;

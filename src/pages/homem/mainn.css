@@ -1,22 +1,50 @@
 .details {
-    display: flex;
-    background: white;
-    padding: 4%;
-    color: #888;
+    /* display: flex; */
+    padding: 1%;
+    color: #382f2f;
 }
 
 .map {
-    width: 100%;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    justify-content: center;
     height: 100vh;
-    margin-left: 3%
+    margin-left: 1%
 }
 
 .maincontac {
     background: white;
+    background: rgb(220, 220, 229);
 }
 
 .maincontac h1 {
     text-align: center;
-    padding-top: 4%;
+    padding-top: 1%;
     color: #1f6f8b
+}
+
+.contact-details {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.cardsec {
+    display: flex;
+    margin: 2%;
+    transform: translateY(-100px)
+}
+
+@media (max-width: 990px) {
+    .cardsec {
+        display: block;
+        margin-left: 8%;
+        transform: translateY(-40px)
+    }
+    .blogs {
+        margin-right: 75%;
+    }
+    .map {
+        height: 50vh;
+    }
 }

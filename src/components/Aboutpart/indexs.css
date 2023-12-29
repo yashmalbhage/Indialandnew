@@ -1,0 +1,51 @@
+.abo {
+    padding: 3%;
+    background-color: #f0f0f0;
+    color: #1f6f8b
+}
+
+.ap1 {
+    display: flex;
+    justify-content: center;
+    /* background-image: url('../../images/abstract_pattern_design_background_2007.jpg'); */
+    background-size: cover;
+    /* You can use other values like 'contain' or specify dimensions */
+    background-repeat: no-repeat;
+}
+
+.imagep {
+    width: 100%;
+    padding: 1%;
+}
+
+img {
+    width: 80%;
+}
+
+.attri {
+    padding: 0%;
+    margin-left: 0%;
+    align-items: center;
+}
+
+.feature {
+    margin-top: 8%;
+    display: flex
+}
+
+.contetn {
+    display: block;
+}
+
+@media (max-width: 990px) {
+    .ap1 {
+        display: block;
+    }
+    img {
+        width: 100%;
+    }
+    /* .stats {
+        text-align: center;
+        margin-bottom: 25%
+    } */
+}

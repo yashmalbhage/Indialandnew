@@ -8,25 +8,38 @@ const Counter = () => {
   return (
     <ScrollTrigger onEnter={()=>setCounterOn(true)}  onExit={()=>setCounterOn(false)}>
 
-<div style={{
-    width: "100%",
-    background:'white',
-    color:'black',
-    padding:'50px',
-    display:"flex"
-  }}>
-    <h3>
-        {counterOn && <CountUp start={0} end={20} duration={3} delay={0}/>}+ years of experience
-    </h3>
-    <h3>
-        {counterOn && <CountUp start={0} end={2000} duration={3} delay={0}/>}+ projects
-    </h3>
-    <h3>
-        {counterOn && <CountUp start={0} end={2000} duration={3} delay={0}/>}+ clients
-    </h3>
-    <h3>
-        {counterOn && <CountUp start={0} end={200} duration={3} delay={0}/>}+ cities
-    </h3>
+<div className="Allstat">
+    <div className="stats">
+    <h1>
+        {counterOn && <CountUp start={0} end={10} duration={5} delay={1}/>}+ 
+       
+    </h1>
+   
+        <h6>MILLION SQFT OF
+TENANTED SPACE</h6>
+    </div>
+    
+    <div className="stats">
+    <h1>
+        {counterOn && <CountUp start={0} end={50} duration={3} delay={1}/>}+
+        
+    </h1>
+    <h6>MULTINATIONAL
+CLIENTS</h6>
+    </div>
+
+    
+    <div className="stats">
+    <h1>
+        {counterOn && <CountUp start={0} end={10} duration={3} delay={2}/>}+
+      
+    </h1>
+    <h6>IT & INDUSTRIAL
+PARKS</h6>
+    </div>
+
+    
+  
 
     </div>
     </ScrollTrigger>
