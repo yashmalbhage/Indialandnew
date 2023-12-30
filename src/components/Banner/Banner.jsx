@@ -7,6 +7,7 @@ const Banner = ({ backgroundImage, heading }) => {
     backgroundSize: "cover",
     backgroundPosition: "center",
     position: "relative",
+    color:' #d4af37',
     height: "100vh", // You can adjust the height as needed
   };
 
@@ -23,8 +24,8 @@ const Banner = ({ backgroundImage, heading }) => {
   };
 
   const headingStyle = {
-    color: "white",
-    fontSize: "2rem",
+    color: "#d4af37",
+    fontSize: "6rem",
     textAlign: "center",
   };
 

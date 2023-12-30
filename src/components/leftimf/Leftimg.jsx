@@ -14,9 +14,9 @@ const PostCard = ({ imgSrc, name, post, description }) => {
         <div className="col-md-6">
           <div className="card w-100">
             <div className="card-body">
-              <h5 className="card-title"> {name} </h5>{" "}
+              <h2 className="card-title" style={{color:'#d4af37'}}> {name} </h2>{" "}
               <h6 className="card-subtitle mb-2 text-muted"> {post} </h6>{" "}
-              <p className="card-text"> {description} </p>{" "}
+              <p className="card-text"  style={{color:'#1f6f8b'}}> {description} </p>{" "}
             </div>{" "}
           </div>{" "}
         </div>{" "}

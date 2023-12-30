@@ -12,10 +12,10 @@ import Item from "./Item";
 
 
 
-import slide_image_4 from '../../images/project4.jpg';
-import slide_image_5 from '../../images/project3.jpg';
-import slide_image_6 from '../../images/project2.jpg';
-import slide_image_7 from '../../images/project1.jpg';
+import slide_image_4 from '../../images/1.jpg'
+import slide_image_5 from '../../images/3.jpg';
+import slide_image_6 from '../../images/6.jpg';
+import slide_image_7 from '../../images/commercial Land Pune.jpg';
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },

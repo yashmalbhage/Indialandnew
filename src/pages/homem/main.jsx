@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero1 from '../../components/carausel/cara'
 import Navbarr from '../../components/Navbar/Navbar'
 import Hero from '../../components/Hero/Hero'
@@ -13,9 +13,15 @@ import { faWarehouse } from '@fortawesome/free-solid-svg-icons';
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import Aboutp from '../../components/Aboutpart/Aboutp'
 import Blogmain from '../../components/blogmain/Blogmain'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 // import Map from '../../components/map/map'
 const Main = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  
   const retail = 'fas fa-shopping-cart'
   const Link = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.580007011982!2d73.72321057344462!3d18.592964266962323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb200020f233%3A0x2af1e3842cb375b6!2sIndialand%20Global%20Tech%20Park!5e0!3m2!1sen!2sin!4v1703760357559!5m2!1sen!2sin"
   return (
@@ -25,7 +31,7 @@ const Main = () => {
      <Hero1 title=' Indialand Groups'
         subtitle='The Brighter side of life'
         />
-        <div className="cardsec">
+        <div className="cardsec" >
           <CustomCard logo="path/to/logo.png"
           icon={faShoppingCart}
         title="Retail industry"
@@ -47,19 +53,24 @@ const Main = () => {
 
         </div>
 
+        <div  className="aos-init" data-aos="fade-up">
+        <Aboutp data-aos="fade up"/>
+        </div>
+        <div data-aos="fade up">
+                <Slider />
+
+        </div>
         
-        
-        <Aboutp/>
-        <Slider/>
+       
 
 
-        <div className="blogs">
+        <div className="blogs" data-aos="fade up">
           <Blogmain />
 
          
 
         </div>
-        <div className="maincontac">
+        <div className="maincontac" data-aos="fade up">
         <h1>Where you can find us</h1>
 
         <div className="details">

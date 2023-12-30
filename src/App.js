@@ -12,6 +12,7 @@ import ParkPune from "./pages/PARKPune/ParkPune";
 import Magarpatta from "./pages/Magarpatta/Magarpatta";
 import Blog from "./pages/Blogs/Blog";
 import Blog1 from "./pages/Blog1/Blog1";
+import Chairman from "./pages/chairman/Chairman";
 function App() {
   return (
     <Router style={{ fontFamily:'Noto Sans JP'}}>
@@ -22,10 +23,12 @@ function App() {
       <Route path="/contact" element={<Contactus />} />
       <Route path="/leadership" element={<Leader />} />
       <Route path="/Coimbatore" element={<Coimbatore />} />
-      <Route path="/Pune" element={<ParkPune />} />
+      <Route path="/INDIALAND GLOBAL INDUSTRIAL PARK" element={<ParkPune />} />
       <Route path="/Magarpatta" element={<Magarpatta />} />
       <Route path="/Blogs" element={<Blog />} />
       <Route path="/TowerD" element={<Blog1 />} />
+      <Route path="/Chairman's Corner" element={<Chairman />} />
+
 
 
 
