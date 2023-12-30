@@ -6,6 +6,7 @@
         "@fortawesome/fontawesome-svg-core": "^6.5.1",
         "@fortawesome/free-solid-svg-icons": "^6.5.1",
         "@fortawesome/react-fontawesome": "^0.2.0",
+        "@itseasy21/react-elastic-carousel": "^0.12.3",
         "@popperjs/core": "^2.11.8",
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
@@ -17,7 +18,6 @@
         "react-bootstrap": "^2.9.2",
         "react-countup": "^6.5.0",
         "react-dom": "^18.2.0",
-        "react-elastic-carousel": "^0.11.5",
         "react-router-dom": "^6.21.1",
         "react-scripts": "5.0.1",
         "react-scroll-trigger": "^0.6.14",
@@ -26,7 +26,7 @@
         "swiper": "^11.0.5",
         "web-vitals": "^2.1.4"
     },
-    "homepage": "https://yashmalbhage.github.io/India_land",
+    "homepage": "./",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",

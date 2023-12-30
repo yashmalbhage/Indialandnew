@@ -7,7 +7,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import ReactDOM from "react-dom";
-import Carousel from "react-elastic-carousel";
+import Carousal from "@itseasy21/react-elastic-carousel";
 import Item from "./Item";
 
 
@@ -28,7 +28,7 @@ function Slider() {
     <div className="container">
       <h1 className="heading">Projects</h1>
       <div className="slider">
-        <Carousel breakPoints={breakPoints}>
+        <Carousal breakPoints={breakPoints}>
           <Item><img src={slide_image_4} alt="" /></Item>
           <Item><img src={slide_image_5} alt="" /></Item>
           <Item><img src={slide_image_6} alt="" /></Item>
@@ -37,7 +37,7 @@ function Slider() {
           <Item><img src={slide_image_5} alt="" /></Item>
           <Item><img src={slide_image_6} alt="" /></Item>
           <Item><img src={slide_image_7} alt="" /></Item>
-        </Carousel>
+        </Carousal>
       </div>
     
       
