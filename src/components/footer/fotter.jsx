@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="container text-center">
         <div className="row">
           <div className="col-md-6">
-            <h5>Contact</h5>
+            {/* <h5>Contact</h5>
             <p>43 Raymouth Rd. Baltemoer, London 3910</p>
             <p>+1(123)-456-7890</p>
-            <p>info@mydomain.com</p>
+            <p>info@mydomain.com</p> */}
           </div>
           <div className="col-md-6">
-            <h5>Sources</h5>
+            {/* <h5>Sources</h5> */}
             <ul className="list-unstyled">
               {/* ... (list items) ... */}
             </ul>
@@ -23,12 +23,12 @@ const Footer = () => {
         <hr />
         <div className="row">
           <div className="col-md-6">
-            <h5>Links</h5>
+            {/* <h5>Links</h5> */}
             <ul className="list-unstyled">
               {/* ... (list items) ... */}
             </ul>
           </div>
-          <div className="col-md-6">
+          <div className="">
             <p>
               Copyright ©2023 All rights reserved
             </p>

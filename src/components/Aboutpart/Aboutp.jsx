@@ -14,7 +14,7 @@ const Aboutp = () => {
            <div className="abo">
             <h1 style={{fontSize:'40px'}}>About us</h1>
             <hr></hr>
-            <p style={{fontWeight:'700'}}>India Land, a part of the Americorp Group, has developed five million square feet of real estate, including IT parks, SEZs, and industrial and commercial spaces across major Indian cities. They hold prime land parcels in South Mumbai, Coimbatore, suburban Chennai (Padalam, Oragadam), and Pune (Hinjewadi) for high-end commercial and residential development.
+            <p>India Land, a part of the Americorp Group, has developed five million square feet of real estate, including IT parks, SEZs, and industrial and commercial spaces across major Indian cities. They hold prime land parcels in South Mumbai, Coimbatore, suburban Chennai (Padalam, Oragadam), and Pune (Hinjewadi) for high-end commercial and residential development.
 </p>
             <div className="ap1">
                 <div className="imagep"> 

@@ -6,11 +6,11 @@ import img from '../../images/Indialand Logo-03.png'
 import { NavLink } from 'react-router-dom';
 function Navbarr() {
   const logo = {
-    width:'150px'
+    width:'100px'
   }
   const nav = {
     backgroundColor: 'black',
-     height:'19vh', 
+    //  height:'19vh', 
      borderRadius:'13px'
 
   }

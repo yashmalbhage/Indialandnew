@@ -1,11 +1,11 @@
 .custom-card {
-    background-color: #f8f9fa;
+    color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 2%;
     padding: 1%;
     margin: 2%;
-    color: #1f6f8b;
+    background-color: #1f6f8b;
     padding: 1%;
     padding: 30px 0px;
     height: 150px;

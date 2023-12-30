@@ -25,7 +25,7 @@ const Banner = ({ backgroundImage, heading }) => {
 
   const headingStyle = {
     color: "#d4af37",
-    fontSize: "6rem",
+    fontSize: "3rem",
     textAlign: "center",
   };
 
