@@ -15,8 +15,8 @@ const Counter = () => {
        
     </h1>
    
-        <h6>MILLION SQFT OF
-TENANTED SPACE</h6>
+        <h5>MILLION SQFT OF
+TENANTED SPACE</h5>
     </div>
     
     <div className="stats">
@@ -24,8 +24,8 @@ TENANTED SPACE</h6>
         {counterOn && <CountUp start={0} end={50} duration={3} delay={1}/>}+
         
     </h1>
-    <h6>MULTINATIONAL
-CLIENTS</h6>
+    <h5>MULTINATIONAL
+CLIENTS</h5>
     </div>
 
     
@@ -34,8 +34,8 @@ CLIENTS</h6>
         {counterOn && <CountUp start={0} end={10} duration={3} delay={2}/>}+
       
     </h1>
-    <h6>IT & INDUSTRIAL
-PARKS</h6>
+    <h5>IT & INDUSTRIAL
+PARKS</h5>
     </div>
 
     

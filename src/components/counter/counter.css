@@ -1,17 +1,17 @@
 .Allstat {
     width: 100%;
-    background: white;
+    background: #ffffff;
     padding: 50px;
     display: flex;
-    color: #1f6f8b
+    color: #d3b484
 }
 
 .stats {
     margin: 9%
 }
 
-h1 {
-    font-weight: bold;
+.stats h1 {
+    font-weight: 900;
 }
 
 @media (max-width: 990px) {

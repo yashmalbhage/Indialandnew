@@ -59,7 +59,7 @@ const Aboutp = () => {
                 </div>
             </div>
         </div>
-        <Counter />
+        {/* <Counter /> */}
       
     </div>
   )

@@ -1,3 +1,7 @@
+div {
+    scroll-behavior: smooth;
+}
+
 .details {
     /* display: flex; */
     padding: 1%;
@@ -32,7 +36,33 @@
 .cardsec {
     display: flex;
     margin: 2%;
-    transform: translateY(-100px)
+    transform: translateY(-100px);
+    position: sticky;
+    top: 0
+}
+
+.abpart {
+    position: sticky;
+    /* top: 0 */
+}
+
+.abpart1 {
+    position: sticky;
+    top: 0
+}
+
+.abpart2 {
+    height: 100vh;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0
+}
+
+.blogs {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
 }
 
 @media (max-width: 990px) {

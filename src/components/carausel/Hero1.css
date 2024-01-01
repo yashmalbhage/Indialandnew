@@ -20,8 +20,14 @@
 }
 
 .hero-container h1 {
+    display: inline-block;
     font-size: 6vw;
-    color: rgb(216, 150, 150)
+    white-space: nowrap;
+    color: #FEC300;
+    animation: typeAndDelete 4s steps(16) infinite, blinkCursor 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
 }
 
 .hero-container p {
@@ -40,16 +46,28 @@
     }
 }
 
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
 @media (max-width: 990px) {
     .hero-container h1 {
-        font-size: 16vw;
+        font-size: 11vw;
         position: relative;
         top: 25vh
     }
     .hero-container p {
         position: relative;
         top: 32vh;
-        font-size: 7vw;
+        font-size: 6vw;
     }
     .navbarr {
         bottom: 0%

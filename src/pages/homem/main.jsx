@@ -15,6 +15,7 @@ import Aboutp from '../../components/Aboutpart/Aboutp'
 import Blogmain from '../../components/blogmain/Blogmain'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import Counter from '../../components/counter/counter'
 
 // import Map from '../../components/map/map'
 const Main = () => {
@@ -53,10 +54,13 @@ const Main = () => {
 
         </div>
 
-        <div  className="aos-init" data-aos="fade-up">
-        <Aboutp data-aos="fade up"/>
+        <div  className="abpart">
+        <Aboutp />
         </div>
-        <div data-aos="fade up">
+        <div  className="abpart1">
+        <Counter/>
+        </div>
+        <div  className='abpart2'data-aos="fade up">
                 <Slider />
 
         </div>

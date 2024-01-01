@@ -1,0 +1,18 @@
+button {
+    background: linear-gradient(to right, #FFD700, #FFA500);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background 0.3s
+}
+
+@media (max-width: 990px) {
+    button {
+        padding: 0;
+        /* width: 100% */
+    }
+}

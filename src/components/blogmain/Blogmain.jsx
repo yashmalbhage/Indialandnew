@@ -3,10 +3,12 @@ import CustomCard from "../card/card";
 import blog2 from '../../images/blog2.png'
 import blog1 from '../../images/blog1.jpeg'
 import { left } from "@popperjs/core";
+import GradientButton from "../Button/button";
+import './blogmain.css'
 
 const Blogmain = () => {
   return (
-    <div >
+    <div style={{height:'100vh'}}>
       <div className="container mt-4" >
         <hr></hr>
         <h1 style={{textAlign:'center', marginLeft:'0', color:' #1f6f8b'}}> Blogs</h1>
@@ -26,8 +28,12 @@ const Blogmain = () => {
             description=" Transforming Real Estate with Sustainable Initiatives"
             /></div>{" "}
         </div>{" "}
+
       </div>
-      <hr></hr>
+      <div className="btn">
+        {/* <GradientButton label='Know more...'/> */}
+      </div>
+      
     </div>
   );
 };
