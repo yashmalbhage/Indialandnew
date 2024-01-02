@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { Container, Row, Col } from 'react-bootstrap';
 import Navbarr from '../Navbar/Navbar';
 import './Hero1.css';
-import Typed from 'react-typed'
 
 const Hero1 = ({ title, subtitle }) => {
   return (
@@ -22,7 +21,7 @@ const Hero1 = ({ title, subtitle }) => {
         <Row>
           <Col>
            
-            <h1 ><Typed strings={[title]} typeSpeed={50} backSpeed={100} loop/></h1>
+            <h1 >{title}</h1>
             <p>{subtitle}</p>
           </Col>
         </Row>
