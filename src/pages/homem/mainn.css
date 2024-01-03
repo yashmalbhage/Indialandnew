@@ -60,6 +60,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding-right: 9%;
 }
 
 .abpart2 {
@@ -80,6 +81,9 @@
 }
 
 @media (max-width: 990px) {
+    .nebtn {
+        padding-right: 45%;
+    }
     .cardsec {
         display: block;
         margin-left: 12%;
