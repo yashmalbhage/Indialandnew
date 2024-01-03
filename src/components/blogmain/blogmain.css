@@ -6,6 +6,30 @@
     align-content: center;
 }
 
+.mainblog {
+    height: 100vh
+}
+
+.cardbicontainer {
+    /* display: ; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    padding-left: 32%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* Adjust as needed */
+}
+
+@media (max-width: 1024px) {
+    .cardbicontainer {
+        padding-left: 1%;
+    }
+    .mainblog {
+        padding-top: 10%
+    }
+}
+
 
 /* @media (max-width: 990px) {
     .btn {

@@ -6,7 +6,7 @@ import Banner from '../../components/Banner/Banner'
 const Blog1 = () => {
   return (
     <div>
-      <div className="container">
+      <div >
         <Banner backgroundImage={blog2} heading="Tower D"/>
         <div className="blog">
           <h1>Introducing D Tower: A Fresh Perspective on Urban Living</h1>

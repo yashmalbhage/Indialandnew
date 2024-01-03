@@ -2,6 +2,22 @@
     font-family: sans-serif;
     display: flex;
     align-items: center;
+    padding-top: 7%;
     justify-content: center;
-    /* height: 100vh; */
+    background-color: rgb(196, 191, 191);
+    ;
+    /* height
+    
+    : 100vh; */
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

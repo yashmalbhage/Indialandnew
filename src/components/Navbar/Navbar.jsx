@@ -36,13 +36,13 @@ function Navbar() {
             Projects
           </a>
           <ul className="dropdown-menu"   style={{backgroundColor:' #0f2542', color:'#fff'}}>
-            <li><a className="dropdown-item" href="/Coimbatore"  style={{backgroundColor:' #0f2542', color:'#fff'}}>IndiaLand tech park, Coimbatore</a></li>
-            <li><a className="dropdown-item" href="/INDIALAND GLOBAL INDUSTRIAL PARK, Pune" style={{backgroundColor:' #0f2542', color:'#fff'}}>IndiaLand Global Industrial Park, Pune</a></li>
-            <li><a className="dropdown-item" href="/Magarpatta" style={{backgroundColor:' #0f2542', color:'#fff'}}>Cyber City Magarpatta, Pune</a></li>
-			<li><a className="dropdown-item" href="/Chennai" style={{backgroundColor:' #0f2542', color:'#fff'}}>IndiaLand Industrial And Logistic Park Orgadam, Chennai</a></li>
-			<li><a className="dropdown-item" href="/Chairman's Corner" style={{backgroundColor:' #0f2542', color:'#fff'}}>Grand Highstreet, Hinjewadi Pune</a></li>
-			<li><a className="dropdown-item" href="/Chairman's Corner" style={{backgroundColor:' #0f2542', color:'#fff'}}>IndiaLand Global Tech Park, Hinjewadi Pune</a></li>
-			<li><a className="dropdown-item" href="/Chairman's Corner" style={{backgroundColor:' #0f2542', color:'#fff'}}>Build to suit</a></li>
+            <li><a className="dropdown-item" href="/Coimbatore"  style={{backgroundColor:' #0f2542', color:'#fff', fontSize:"12px"}}>IndiaLand tech park, Coimbatore</a></li>
+            <li><a className="dropdown-item" href="/INDIALAND GLOBAL INDUSTRIAL PARK, Pune" style={{backgroundColor:' #0f2542', color:'#fff',fontSize:"12px"}}>IndiaLand Global Industrial Park, Pune</a></li>
+            <li><a className="dropdown-item" href="/Magarpatta" style={{backgroundColor:' #0f2542', color:'#fff',fontSize:"12px"}}>Cyber City Magarpatta, Pune</a></li>
+			<li><a className="dropdown-item" href="/Chennai" style={{backgroundColor:' #0f2542', color:'#fff', fontSize:"12px"}}>IndiaLand Industrial And Logistic Park Orgadam, Chennai</a></li>
+			<li><a className="dropdown-item" href="/Chairman's Corner" style={{backgroundColor:' #0f2542', color:'#fff', fontSize:"12px"}}>Grand Highstreet, Hinjewadi Pune</a></li>
+			<li><a className="dropdown-item" href="/Chairman's Corner" style={{backgroundColor:' #0f2542', color:'#fff', fontSize:"12px"}}>IndiaLand Global Tech Park, Hinjewadi Pune</a></li>
+			<li><a className="dropdown-item" href="/Chairman's Corner" style={{backgroundColor:' #0f2542', color:'#fff',fontSize:"12px"}}>Build to suit</a></li>
 
 
 
