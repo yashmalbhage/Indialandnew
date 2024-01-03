@@ -1,22 +1,32 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
+// Button.js
 
-const GradientButton = ({ label, onClick }) => {
+import React from 'react';
+import styled from 'styled-components';
+
+// Define your styled component
+const StyledButton = styled.button`
+  background-color: #0f2542;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position:absolute;
+  // margin:Auto;
+
+  &:hover {
+    background-color: #FEC300;
+  }
+`;
+
+// Create a functional component that uses the styled component
+const Button = ({ onClick, children }) => {
   return (
-    <Button
-      variant="primary"
-      size="lg"
-      block
-      style={{
-        background: 'linear-gradient(to right, #FFD700, #FFA500)',
-        borderRadius: '5px',
-        fontSize: '16px',
-      }}
-      onClick={onClick}
-    >
-      {label}
-    </Button>
+    <StyledButton onClick={onClick}>
+      {children}
+    </StyledButton>
   );
 };
 
-export default GradientButton;
+export default Button;

@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
-import img1 from "../../images/project2.jpg";
+import img1 from "../../images/Pune/1.jpg";
 import PostCard from "../../components/leftimf/Leftimg";
 import Footer from "../../components/footer/fotter";
 const Magarpatta = () => {

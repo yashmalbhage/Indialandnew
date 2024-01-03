@@ -3,8 +3,9 @@ import CustomCard from "../card/card";
 import blog2 from '../../images/blog2.png'
 import blog1 from '../../images/blog1.jpeg'
 import { left } from "@popperjs/core";
-import GradientButton from "../Button/button";
+import Button from "../Button/button";
 import './blogmain.css'
+import { Link } from "react-router-dom";
 
 const Blogmain = () => {
   return (
@@ -15,24 +16,31 @@ const Blogmain = () => {
         <div className="row" style={{ marginLeft:'15%'}}>
       
 
-          <div className="col-md-6">
-            <CustomCard  title="Tower D"
+          <div className="col-md-6" style={{textDecoration:"None"}}>
+          <Link to='/TowerD' style={{textDecoration:"None"}}>  <CustomCard  title="Tower D"
             description="A Fresh Perspective on Urban Living"
             
             
-            />
+            /></Link>
+
+          
           </div>{" "}
          
           <div className="col-md-6">
-          <CustomCard title="Indialand’s Green Initiative"
+            <Link to="/TowerD" style={{textDecoration:"None"}}> <CustomCard title="Indialand’s Green Initiative"
             description=" Transforming Real Estate with Sustainable Initiatives"
-            /></div>{" "}
+            /></Link>
+         </div>{" "}
         </div>{" "}
 
+
       </div>
-      <div className="btn">
-        {/* <GradientButton label='Know more...'/> */}
-      </div>
+       
+      <div className="nebtn1">
+            {/* <Button children='click here to know more!'/> */}
+
+          </div>
+      
       
     </div>
   );

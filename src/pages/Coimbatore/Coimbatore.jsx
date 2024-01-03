@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
-import img1 from "../../images/project4.jpg";
+import img1 from "../../images/coimbatore/1.jpg";
 import PostCard from "../../components/leftimf/Leftimg";
 import Footer from "../../components/footer/fotter";
 const Coimbatore = () => {

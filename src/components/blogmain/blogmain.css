@@ -1,10 +1,14 @@
-.btn {
-    padding-left: 41%;
-    padding-top: 10%
+.nebtn1 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-@media (max-width: 990px) {
+
+/* @media (max-width: 990px) {
     .btn {
         align-content: center;
     }
-}
+} */

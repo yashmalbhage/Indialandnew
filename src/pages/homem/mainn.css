@@ -1,6 +1,6 @@
-div {
+/* div {
     scroll-behavior: smooth;
-}
+} */
 
 .details {
     /* display: flex; */
@@ -20,6 +20,8 @@ div {
 .maincontac {
     background: white;
     background: rgb(220, 220, 229);
+    position: sticky;
+    top: 0;
 }
 
 .maincontac h1 {
@@ -37,22 +39,33 @@ div {
     display: flex;
     margin: 2%;
     transform: translateY(-100px);
-    position: sticky;
-    top: 0
 }
 
 .abpart {
+    /* padding: 1%; */
     position: sticky;
-    /* top: 0 */
+    top: 0;
+    /* padding-bottom: 10%; */
 }
 
 .abpart1 {
     position: sticky;
-    top: 0
+    top: 0;
+    height: 100vh;
+    background-color: white;
+}
+
+.nebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .abpart2 {
     height: 100vh;
+    margin: 20% 0%;
+    padding-top: 3%;
     background-color: whitesmoke;
     position: sticky;
     top: 0
@@ -61,7 +74,8 @@ div {
 .blogs {
     height: 100vh;
     position: sticky;
-    top: 0;
+    padding-bottom: 12%;
+    /* top: 0; */
     background-color: whitesmoke;
 }
 
@@ -69,10 +83,25 @@ div {
     .cardsec {
         display: block;
         margin-left: 12%;
-        transform: translateY(-40px)
+        transform: translateY(0px);
+        position: sticky;
+        /* top: 0; */
+        /* background-color: white */
+    }
+    .abpart {
+        position: relative;
+    }
+    .abpart2 {
+        /* position: relative; */
     }
     .blogs {
-        margin-right: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 35%;
+        align-content: center;
+        position: sticky
+        /* padding-top: 15%; */
     }
     .map {
         height: 50vh;

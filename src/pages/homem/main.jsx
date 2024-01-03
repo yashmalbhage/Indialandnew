@@ -16,7 +16,8 @@ import Blogmain from '../../components/blogmain/Blogmain'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import Counter from '../../components/counter/counter'
-
+import Button from '../../components/Button/button'
+import { Link } from 'react-router-dom';
 // import Map from '../../components/map/map'
 const Main = () => {
   useEffect(() => {
@@ -24,7 +25,7 @@ const Main = () => {
   }, []);
   
   const retail = 'fas fa-shopping-cart'
-  const Link = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.580007011982!2d73.72321057344462!3d18.592964266962323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb200020f233%3A0x2af1e3842cb375b6!2sIndialand%20Global%20Tech%20Park!5e0!3m2!1sen!2sin!4v1703760357559!5m2!1sen!2sin"
+  const Linki = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.580007011982!2d73.72321057344462!3d18.592964266962323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb200020f233%3A0x2af1e3842cb375b6!2sIndialand%20Global%20Tech%20Park!5e0!3m2!1sen!2sin!4v1703760357559!5m2!1sen!2sin"
   return (
     <div  style={{ fontFamily:'Proxima Nova '
     }}>
@@ -59,20 +60,26 @@ const Main = () => {
         </div>
         <div  className="abpart1">
         <Counter/>
+        <div className="nebtn">
+          <Link to="/about">        <Button children='click here to know more!'/>
+</Link>
+
+        </div>
         </div>
         <div  className='abpart2'data-aos="fade up">
-                <Slider />
+        <Link to="/Coimbatore"> <Slider /></Link>
+               
+
+          <div className="nebtn">
+            
+            
+
+          </div>
 
         </div>
-        
-       
-
-
-        <div className="blogs" data-aos="fade up">
+       <div className="blogs" data-aos="fade up">
           <Blogmain />
-
-         
-
+          
         </div>
         <div className="maincontac" data-aos="fade up">
         <h1>Where you can find us</h1>
@@ -83,7 +90,7 @@ const Main = () => {
         
        
        <div className="map">
-       <iframe src={Link} style = {{width:"100%", height:"100%", style:"border:0", allowfullscreen:"", loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}></iframe>
+       <iframe src={Linki} style = {{width:"100%", height:"100%", style:"border:0", allowfullscreen:"", loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}></iframe>
        </div>
        <div className="contact-details">
            <h4>Email:www.indialand@gmail.com</h4>
@@ -92,9 +99,10 @@ const Main = () => {
 
          </div>
    </div>
+   <Footer/>
+
         </div>
 
-        <Footer/>
        
       
         

@@ -13,6 +13,7 @@ import Magarpatta from "./pages/Magarpatta/Magarpatta";
 import Blog from "./pages/Blogs/Blog";
 import Blog1 from "./pages/Blog1/Blog1";
 import Chairman from "./pages/chairman/Chairman";
+import Chennaipro from "./pages/Chennaipro/Chennaipro";
 function App() {
   return (
     <Router style={{ fontFamily:'Noto Sans JP'}}>
@@ -23,11 +24,13 @@ function App() {
       <Route path="/contact" element={<Contactus />} />
       <Route path="/leadership" element={<Leader />} />
       <Route path="/Coimbatore" element={<Coimbatore />} />
-      <Route path="/INDIALAND GLOBAL INDUSTRIAL PARK" element={<ParkPune />} />
+      <Route path="/INDIALAND GLOBAL INDUSTRIAL PARK, Pune" element={<ParkPune />} />
       <Route path="/Magarpatta" element={<Magarpatta />} />
       <Route path="/Blogs" element={<Blog />} />
       <Route path="/TowerD" element={<Blog1 />} />
       <Route path="/Chairman's Corner" element={<Chairman />} />
+      <Route path="/Chennai" element={<Chennaipro />} />
+
 
 
 

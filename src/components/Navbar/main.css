@@ -13,25 +13,27 @@
     --textColor: #eee;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding: 0 2rem;
+.navbar {
     /* border-radius: 10px; */
     background-color: #0f2542;
-    color: var(--textColor);
+    color: #eee;
+    ;
     font-family: Proxima Nova
 }
 
-nav a {
+.container-fluid {
+    color: #eee;
+    ;
+    font-family: Proxima Nova
+}
+
+.nav-link {
     margin: 0 1rem;
     color: var(--textColor);
     text-decoration: none;
 }
 
-nav a:hover {
+.nav-link {
     color: var(--secondaryColor);
 }
 
@@ -46,6 +48,10 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+}
+
+.dropdown-menu {
+    background-color: #0f2542;
 }
 
 header div,

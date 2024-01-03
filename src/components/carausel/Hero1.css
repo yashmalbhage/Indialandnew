@@ -31,7 +31,21 @@
 }
 
 .hero-container p {
-    font-size: 4vw;
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 4em;
+    color: White;
+}
+
+@keyframes typing {
+    to {
+        width: 0%;
+    }
+}
+
+@keyframes line {
+    50% {
+        color: transparent;
+    }
 }
 
 @keyframes changeBackground {
