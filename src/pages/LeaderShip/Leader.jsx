@@ -8,12 +8,14 @@ import Salai from '../../images/salai.jpg'
 import amitab from '../../images/amitab.jpg'
 import PostrightCard from "../../components/rightimf/Rightimf";
 import Footer from "../../components/footer/fotter";
+import Banner from "../../components/Banner/Banner";
+import img1 from "../../images/teammate.jpg"
 
 
 const Leader = () => {
   return (
     <div>
-      <Hero title="Leadership" />
+      <Banner backgroundImage={img1} heading="LEADERSHIP"/>
       <PostCard imgSrc={chairman}
         name="HARISH FABIANI"
         post="Group Chairman"

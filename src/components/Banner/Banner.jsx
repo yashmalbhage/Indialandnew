@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "../Navbar/Navbar";
 
 const Banner = ({ backgroundImage, heading }) => {
   const bannerStyle = {
@@ -30,11 +31,15 @@ const Banner = ({ backgroundImage, heading }) => {
   };
 
   return (
-    <div style={bannerStyle}>
-      <div style={overlayStyle}>
-        <h1 style={headingStyle}>{heading}</h1>
-      </div>
+    <div>  
+      <Navbar/>
+      
+      <div style={bannerStyle}>
+    <div style={overlayStyle}>
+      <h1 style={headingStyle}>{heading}</h1>
     </div>
+  </div></div>
+   
   );
 };
 

@@ -67,10 +67,17 @@ const Main = () => {
         </div>
         </div>
         <div  className='abpart2'data-aos="fade up">
-        <Link to="/Coimbatore"> <Slider /></Link>
+         <Slider />
+        <div className="nebtn">
+          <Link to="/Coimbatore">        <Button children='click here to know more!'/>
+</Link>
+
+        </div>
+        
                
 
           <div className="nebtn">
+
             
             
 

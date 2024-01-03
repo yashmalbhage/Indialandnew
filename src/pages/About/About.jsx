@@ -10,6 +10,8 @@ import Counter from "../../components/counter/counter";
 import Team from "../../components/team/team";
 import Footer from "../../components/footer/fotter";
 import Aboutp from "../../components/Aboutpart/Aboutp";
+import Banner from "../../components/Banner/Banner";
+import img1 from '../../images/aboutuspage.jpg'
 const testimonials = [
   {
     author: "John Doe",
@@ -27,12 +29,7 @@ const About = () => {
   return (
     <div style={{ fontFamily:'Noto Sans JP'}}>
       <div className="na">
-        <Hero
-          title="About us"
-          subtitle=""
-          backgroundImage="#1f6f8b;"
-          style={{backgroundColor:'#1f6f8b'}}
-        />
+        <Banner backgroundImage={img1} heading="ABOUT INDIALAND"/>
         {/* <div className="cardsec" style={{ display: "flex", margin: "2%" }}>
           <CustomCard
             logo="path/to/logo.png"
