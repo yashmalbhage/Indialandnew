@@ -16,7 +16,7 @@ const Team = () => {
                 <div className='profile'>
                     <img src={chair} alt="" />
                     <h3>Harish Fabiani</h3>
-                    <span>Chai person</span>
+                    <span>Chair person</span>
                 </div>
                 <div className='profile'>
                     <img src={ceo} alt="" />
